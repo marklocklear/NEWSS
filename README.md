@@ -103,7 +103,8 @@ Within your group, discuss:
 Each group briefly shares:
 - Which AI tool you used  
 - One **useful insight** you gained  
-- One **thing the AI got wrong or confused**  
+- One **thing the AI got wrong or confused**
+- Where the answers consistant, similar or different across AIs
 - How you might use (or not use) AI tools like this in your future research  
 
 ---
