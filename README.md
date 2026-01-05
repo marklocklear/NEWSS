@@ -35,8 +35,8 @@ You’ll retrieve the dataset directly from the USDA Ag Data Commons — just li
    👉 [https://agdatacommons.nal.usda.gov/articles/dataset/Data_from_Interspecific_variation_in_persistence_of_buried_weed_seeds_follows_trade-offs_among_physiological_chemical_and_physical_seed_defenses/24660489](https://agdatacommons.nal.usda.gov/articles/dataset/Data_from_Interspecific_variation_in_persistence_of_buried_weed_seeds_follows_trade-offs_among_physiological_chemical_and_physical_seed_defenses/24660489)
 
 2. Under **“Files”**, download:
-   - `Davis et al 2016_Seed Persistence_0.xlsx`
-   - `DataDictionary.csv`
+   - `Davis et al 2016_Seed Persistence_0.xlsx` You may view the file in google sheets here: https://docs.google.com/spreadsheets/d/1kYJzzBHqHLG_XTk8wO74ASjUarlkrOcE/edit?usp=sharing&ouid=100373362533979950619&rtpof=true&sd=true
+   - `DataDictionary.csv` https://github.com/marklocklear/NEWSS/blob/main/DataDictionary.csv
 
 3. Save them somewhere easy to find (e.g., Desktop or Downloads).
 
