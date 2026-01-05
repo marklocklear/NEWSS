@@ -1,0 +1,33 @@
+Worksheet,Variable name,Explanation,Applicable Resource(s),Data type,Character length,Acceptable values,Required?,Accepts null value?
+Seed persistence,Year,Year of common garden burial study,Seed persistence,date,4,2007 to 2012,y,n
+,Burial.duration.yrs,Number of years that seeds were buried,Seed persistence,integer,1,0 to 5,y,n
+,Rep,Replicate block,Seed persistence,integer,1,1 to 4,y,n
+,Species,"Weed species (see following worksheet, 'Weed species')",Seed persistence; Weed species,varchar,5,Bayer codes,y,n
+,tot.emg,Total seedling emergence (seedlings per burial unit),Seed persistence,integer,2,0 to 99,y,n
+,pc.viab,Percent viable seeds remaining in October of study year,Seed persistence,decimal,255,0 to 100,y,n
+,pc.germ,Percent of viable seeds in previous year germinating in current year,Seed persistence,decimal,255,0 to 100,y,y (as NA)
+,pc.dorm,"Percent of viable seeds in previous year remaining viable, but not germinating in current year",Seed persistence,decimal,255,0 to 100,y,y (as NA)
+,,,,,,,,
+Mean Seed Pers vs Traits,wd.spp,"weed species (see following worksheet, 'Weed species')",Mean Seed Pers vs Traits; Seed persistence; Weed species,vachar,5,Genus + species ,y,n
+,t.50,seed half-life in soil seedbank (years),Mean Seed Pers vs Traits,decimal,255,n/a,y,n
+,pc.dorm,"mean percent seed dormancy, by species, over the five years of the study",Mean Seed Pers vs Traits,decimal,255,0 to 100,y,n
+,pc.germ,"mean percent seed germination, by species, over the five years of the study",Mean Seed Pers vs Traits,decimal,255,0 to 100,y,n
+,pc.mort,"mean percent seed mortality, by species, over the five years of the study",Mean Seed Pers vs Traits,decimal,255,0 to 100,y,n
+,rupt.f.N,seed coat rupture force (Newtons),Mean Seed Pers vs Traits,decimal,255,n/a,y,n
+,bshrimp.ed50,brine shrimp survival (effective dose at which 50% of shrimp survived) in response to methanol extract of seed homogenate,Mean Seed Pers vs Traits,decimal,255,n/a,y,n
+,pc.pred,mean percent of seed consumed during two 24 hour intervals in predation assays in adjacent plots,Mean Seed Pers vs Traits,decimal,255,n/a,y,n
+,sdct.thick.um,seed coat thickness (micrometers),Mean Seed Pers vs Traits,decimal,255,n/a,y,n
+,sd.hwt.g,seed hundred weight (g),Mean Seed Pers vs Traits,decimal,255,n/a,y,n
+,coat.ratio,"seed coat ratio (ratio of seed coat thickness to seed mass, um/g)",Mean Seed Pers vs Traits,decimal,255,n/a,y,n
+,o.DHP.ug,seed content of ortho-dihydroxyphenol (ug per g seed homogenate),Mean Seed Pers vs Traits,decimal,255,n/a,y,n
+,numpeaks,number of phenolic peaks detected in seed homogenate by HPLC,Mean Seed Pers vs Traits,integer,255,n/a,y,n
+,tot.phen.area,total area of phenolic peaks detected in seed homogenate by HPLC (Absorbance units per ug),Mean Seed Pers vs Traits,integer,255,n/a,y,n
+,F1.phys.chem,"factor 1 from factor analysis, representing physical and chemical seed traits (unitless loadings)",Mean Seed Pers vs Traits,decimal,255,n/a,y,n
+,F2.physiol.chem,"factor 2 from factor analysis, representing physical and chemical seed traits (unitless loadings)",Mean Seed Pers vs Traits,decimal,255,n/a,y,n
+,P.a through P.ae,"presence of phenolic peaks a through ae in seed homogenate, as detected by HPLC",Mean Seed Pers vs Traits,Boolean,1,0 (false) or 1 (true),y,n
+,A.a through A.ae,"area of phenolic peaks a through ae (Absorbance units per ug), as detected by HPLC",Mean Seed Pers vs Traits,integer,255,n/a,y,n
+,,,,,,,,
+Lit Review Dorm Vs Persistence,Study,author names of study that data were extracted from (citations are included in reference section of Davis et al. 2016),Lit Review Dorm Vs Persistence,varchar,255,n/a,y,n
+,species,"weed species (see following worksheet, 'Weed species')",Lit Review Dorm Vs Persistence,varchar,255,n/a,y,n
+,mn.pc.dorm,Mean percent seed dormancy over the course of the study,Lit Review Dorm Vs Persistence,decimal,255,0 to 100,y,n
+,t50,seed half-life in soil seedbank (years),Lit Review Dorm Vs Persistence,decimal,255,n/a,y,n
