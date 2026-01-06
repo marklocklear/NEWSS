@@ -57,6 +57,7 @@ If your tool allows, add this **setup prompt**:
 Each group should copy/paste and run these prompts in sequence.
 
 ### 🧠 Prompt 1 – Understand the dataset
+> Add/upload the two data files (the csv and excel files) to your AI tool.
 > I am attaching data from https://agdatacommons.nal.usda.gov/articles/dataset/Data_from_Interspecific_variation_in_persistence_of_buried_weed_seeds_follows_trade-offs_among_physiological_chemical_and_physical_seed_defenses/24660489. Can you Summarize the dataset for me? What are the main variables, and what do they measure biologically? Which variable represents “seed persistence,” and what are the possible explanatory traits? 
 
 *(Goal: get the AI to describe the structure and meaning of the data. But also ensure the AI has the correct understanding of the data and its purpose)*
